@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "g++ 编译 knn 项目",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
+            "args": [
+                "-std=c++17",
+                "-g",
+                "-I${workspaceFolder}/knn",
+                "${workspaceFolder}/knn/main.cpp",
+                "-o",
+                "${workspaceFolder}/knn/main.exe"
+            ],
+            "options": { "cwd": "${workspaceFolder}/knn" },
+            "problemMatcher": ["$gcc"],
+            "group": { "kind": "build", "isDefault": true }
+        }
+    ]
+}
