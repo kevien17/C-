@@ -8,8 +8,6 @@
 #include "metrics.h"
 using namespace std;
 
-// ====== 数据加载 ======
-// [从 knn/main.cpp 搬过来：read_int、load_images、load_labels]
 
 
 // ====== 逻辑回归二分类器 ======
